@@ -1,0 +1,40 @@
+body,
+.main
+{
+    min-height: 100vh;
+    height: 100vh;
+    margin: 0;
+    color: black;
+}
+
+.main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box
+{
+    height: 480px;
+    overflow: hidden;
+}
+
+.box__fake
+{
+    z-index: 1000;
+    background: rgba(100, 100, 255, .5);
+    border: 1px solid #33c;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+.box__image 
+{
+    height: 100%;
+}
